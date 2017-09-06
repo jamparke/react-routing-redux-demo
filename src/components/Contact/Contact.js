@@ -14,8 +14,8 @@ export default class Contact extends Component {
 
     }
     async componentDidMount() {
-        const response = await axios.get('https://www.swapi.co/api/people/1');
-        this.setState({ name: response.data.name });
+        // const response = await axios.get('https://www.swapi.co/api/people/1');
+        // this.setState({ name: response.data.name });
     }
     componentWillReceiveProps(props, nextProps) {
         
